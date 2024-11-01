@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,13 +21,15 @@ body {
     }
     
     .screen {
-    width:750px;
-    height: 400px;
+    width:775px;
+    height: 480px;
     background-color: #111;
     border: 1px solid #444;
     margin-bottom: 10px;
     padding: 10px;
-    overflow-y: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: pre;
     }
     
     .input {

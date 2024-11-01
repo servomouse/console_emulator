@@ -7,20 +7,20 @@ body {
     margin: 0;
     background-color: #333;
     color: #fff;
-    }
-    
-    .container {
+}
+
+.container {
     display: flex;
-    }
-    
-    .console {
+}
+
+.console {
     background-color: #000;
     padding: 20px;
     border-radius: 5px;
     margin-right: 20px;
-    }
-    
-    .screen {
+}
+
+.screen {
     width:775px;
     height: 480px;
     background-color: #111;
@@ -30,31 +30,43 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     white-space: pre;
-    }
-    
-    .input {
+}
+
+.input {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    }
-    
-    .led-panel {
+}
+
+.led-panel {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    }
-    
-    .led {
-    width: 100px;
-    height: 30px;
+}
+
+.indicator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.led-name {
+    padding-left: 10px;
+    /* line-height: 20px; */
+}
+
+.led {
+    width: 15px;
+    height: 15px;
     background-color: #444;
     border-radius: 5px;
-    text-align: center;
-    line-height: 30px;
-    margin-bottom: 10px;
-    }
-    
-    .led.active {
+    /* text-align: center; */
+    /* line-height: 30px; */
+    /* margin-bottom: 10px; */
+}
+
+.led.active {
     background-color: #0f0;
-    }
+}

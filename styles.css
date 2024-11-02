@@ -30,12 +30,15 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     white-space: pre;
+    color: green;
+    
 }
 
 .input {
-    width: 100%;
+    width:775px;
     padding: 10px;
     border: none;
+    outline: none;
     border-radius: 5px;
 }
 
